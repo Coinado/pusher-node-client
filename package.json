@@ -3,13 +3,16 @@
   "description": "Pusher client for node.js",
   "version": "0.0.9",
   "author": "Abhishiv Saxena <abhishiv@gmail.com>",
-  "keywords": ["pusher", "websockets", "realtime"],
+  "keywords": [
+    "pusher",
+    "websockets",
+    "realtime"
+  ],
   "repository": "git@github.com:abhishiv/pusher-node-client.git",
   "main": "./lib/pusher-node-client.js",
   "dependencies": {
-    "underscore": "",
     "node-uuid": "",
-    "websocket": "1.0.1"
+    "underscore": "",
+    "websocket": "^1.0.24"
   }
-
 }
